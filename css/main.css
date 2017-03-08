@@ -1,3 +1,17 @@
 .simbolos .card-panel img{
     width: 100%;
 }
+.perfil{
+    margin-top: 20px;
+    flex: 1;
+}
+ul.tabs{overflow-x: hidden;}
+ul.tabs li a{
+    color: #2196f3 !important;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+footer.page-footer{padding-top: 0;}

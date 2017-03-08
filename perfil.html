@@ -40,7 +40,48 @@
         </nav>
     </header>
     <!--termina menu-->
+    <section class="perfil container">
+        <div class="row">
+            <div class="foto col s8 offset-s2 m4">
+                <img src="imagenes/fondo1.jpg" alt="Imagen de perfil" width="100%">
+            </div>
+            <div class="datos col s12 m7 offset-m1">
+                <ul class="tabs" id="tabs-swipe-demo">
+                    <li class="tab col s5"><a href="#personales">Datos personales</a></li>
+                    <li class="tab col s5"><a href="#publicos">Datos publicos</a></li>
+                </ul>
+                <div id="personales" class="col s12">
+                    <h5>Datos personales</h5>
+                    <hr>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="" value="Mynor Lopez" disabled id="nombre">
+                    <label for="correo">Correo</label>
+                    <input type="email" value="mynlop15@gmail.com" disabled id="correo">
+                    <label for="pass">Contraseña</label>
+                    <input type="password" value="*************" disabled id="pass">
+                    <button class="btn waves-effect" id="btn_personales">Editar<i class="material-icons right">mode_edit</i></button>
+                </div>
+                <div id="publicos" class="col s12">
+                    <h5>Datos publicos</h5>
+                    <hr>
+                    <label for="user">Usuario</label>
+                    <input type="text" value="mynlop15" disabled id="user">
+                    <label for="pais">Pais</label>
+                    <input type="text" value="Guatemala" disabled id="pais">
+                    <div class="input-field">
+                        <select name="sexo" id="sexo" disabled>
+                            <option value="masculino" >Masculino</option>
+                            <option value="femenino" >Femenino</option>
+                        </select>
+                        <label for="sexo">Sexo</label>
+                    </div>
+                    <button class="btn waves-effect" id="btn_publicos">Editar<i class="material-icons right">mode_edit</i></button>
+                </div>
 
+
+            </div>
+        </div>
+    </section>
     <!--footer-->
     <footer class="page-footer blue">
         <div class="footer-copyright">

@@ -6,4 +6,6 @@ $(document).ready(function(){
         selectYear: 17
     });
     $('.modal').modal();
+    $('select').material_select();
+    $('ul.tabs').tabs();
 });
